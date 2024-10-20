@@ -1,5 +1,4 @@
 # GolfDiagnosis
-
 - Go into your 'Garmin Connect' Scorecards:
 	- Right click and 'Inspect'
 	- Right above the below element right click <div> element and 'Copy-Copy outterHTML
@@ -9,6 +8,7 @@
 	- This will pull out the scorecard numbers into a python list.
 	- Copy this list to 'create_scorecardCSV.py'..to the 'round_number' variable
 		- This will cycle through each related round on the Garmin website and create a .CSV file, which you will have to change the path on the last line.
+        - Change path in the "dfTotal.to_csv" to your path.
 - Run 'Scores Diagnosis.py', changing the path to the .CSV file.
 	- There are various queries commented out.
 
